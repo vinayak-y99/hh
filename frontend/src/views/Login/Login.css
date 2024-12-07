@@ -1,0 +1,346 @@
+.body {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  background: white;
+  color: black;
+  height: 100vh;
+}
+@media (max-width: 860px) {
+  .body {
+    flex-direction: column;
+  }
+}
+
+/* .right-container,
+.left-container {
+	flex: 1;
+	flex-shrink: 0;
+} */
+
+.left-container {
+  flex: 1 1 65%;
+}
+
+.right-container {
+  flex: 1 1 35%;
+}
+
+@media (max-width: 860px) {
+  .right-container,
+  .left-container {
+    flex: 1 0 auto;
+  }
+}
+
+.left-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.right-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  overflow: auto;
+}
+
+/* .right-container__box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.right-container-box {
+	text-align: center;
+} */
+
+.right-container__h2 {
+  font-size: 28px;
+}
+.right-container__p {
+  opacity: 0.5;
+  margin: 5px 0 10px;
+}
+.right-container__input {
+  max-width: 350px;
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  background: transparent;
+  color: black;
+}
+
+.right-container__input1 {
+  width: 400px;
+  height: 32px;
+  padding: 10px;
+  border-radius: 10px;
+  /* overflow: hidden; */
+  border: 1px #d9d9d9 solid;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+.right-container__input:focus {
+  outline: none;
+}
+.right-container__label {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.right-container__bottom-text {
+  text-align: center;
+  margin-top: 22px;
+  font-size: 14px;
+  color: black;
+}
+.right-container__bottom-text > strong {
+  color: black;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.toggle-container {
+  margin: 24px 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.toggle-box {
+  appearance: none;
+  width: 32px;
+  height: 16px;
+  border-radius: 20px;
+  background-color: rgba(23, 20, 20, 0.5);
+  cursor: pointer;
+  position: relative;
+}
+.toggle-box:checked {
+  background-color: #30a2ff;
+}
+.toggle-box:checked::after {
+  transform: translateX(16px);
+  transition: 0.4s ease-in-out;
+}
+.toggle-box::after {
+  position: absolute;
+  content: "";
+  top: 3px;
+  left: 3px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.btn {
+  background-color: #30a2ff;
+  border: 1px solid #30a2ff;
+  width: 400px;
+  border-radius: 5px;
+  padding: 10px 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #30a2ffa1;
+}
+
+.error-message {
+  color: red;
+  font-weight: 520;
+  font-size: 14px;
+}
+
+/* Define a simple loading animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Styling for the loading indicator */
+.loading-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loading {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #333;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  text-align: center;
+  line-height: 30px;
+}
+.image-container {
+  width: 50%;
+  height: 80%;
+}
+.image1 {
+  z-index: 5;
+  width: 500px;
+  height: 350px;
+  right: 0;
+  position: absolute;
+  top: 150px;
+  transform: translateX(-50%);
+}
+
+.gap {
+  margin-top: 10px;
+  /* Adjust the value based on your design */
+}
+
+.btn {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  background: #5367fe;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px #3a5b22 solid;
+  display: inline-flex;
+  justify-content: center;
+  /* Center the content horizontally */
+  align-items: center;
+  gap: 10px;
+}
+
+.button-container {
+  width: 100%;
+  height: 100%;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  /* Center the text within the button */
+}
+.line-with-text {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.line-with-text .grey-line,
+.line-with-text .text-between-lines {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.grey-line {
+  width: 40%;
+  border-top: 1px solid #ccc;
+}
+
+.text-between-lines {
+  margin: 0 10px;
+  color: black;
+  font-family: "roboto";
+  font-size: 14px;
+}
+.forgot-password-link {
+  position: absolute;
+  top: 120px;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #555;
+}
+
+.forgot-password-link a {
+  color: #5367fe;
+  text-decoration: none;
+}
+
+.forgot-password-link a:hover {
+  text-decoration: underline;
+}
+.btn2 {
+  background-color: #fff;
+  border: 1px solid #5367fe;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px 0;
+  color: black;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #5367fe;
+  color: #fff;
+}
+@media (max-width: 1024px) {
+  .right-container__input1,
+  .btn {
+    width: 350px;
+  }
+
+  .image1 {
+    width: 450px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .right-container__input1,
+  .btn {
+    width: 150px;
+  }
+
+  .image1 {
+    width: 150px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .right-container__input1,
+  .btn {
+    width: 100px;
+  }
+
+  .image1 {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .right-container__input1,
+  .btn {
+    width: 200px;
+  }
+
+  .image1 {
+    width: 300px;
+    height: 150px;
+  }
+
+  .forgot-password-link {
+    position: static;
+    text-align: center;
+  }
+}
