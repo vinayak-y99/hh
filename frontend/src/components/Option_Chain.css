@@ -1,0 +1,235 @@
+.under {
+  width: 85%;
+  /* Make the dropdowns take up 100% width of the container */
+  height: 34px;
+  margin-top: -10px;
+  padding: 8px;
+  /* Add padding for better appearance */
+  border: 1px solid #000000;
+  /* Add a border for a defined look */
+  border-radius: 4px;
+  /* Add rounded corners */
+  box-sizing: border-box;
+  /* Include padding and border in the total width/height */
+
+  /* Optional: Add some spacing between dropdowns */
+  background-color: #fff;
+  margin-left: 15px;
+}
+.exchange3 {
+  width: 100%;
+  /* Make the dropdowns take up 100% width of the container */
+  height: 34px;
+  margin-top: 20px;
+  padding: 8px;
+  /* Add padding for better appearance */
+  border: 1px solid #000000;
+  /* Add a border for a defined look */
+  border-radius: 4px;
+  /* Add rounded corners */
+  box-sizing: border-box;
+  /* Include padding and border in the total width/height */
+
+  /* Optional: Add some spacing between dropdowns */
+  background-color: #fff;
+}
+.group1 {
+  margin-left: 30px;
+  margin-top: 19px;
+}
+
+/* .group td input[type="text"] {
+    border: transparent;
+    width: 60px;
+    font-weight: 600;
+    border-bottom: 1px solid #000;
+    /* Adjust the color as needed */
+/* outline: none; */
+/* padding: 2px; */
+
+/* Adjust the padding as needed */
+/* box-sizing: border-box;
+  } */
+.portfolioLots2::-webkit-inner-spin-button,
+.portfolioLots2::-webkit-outer-spin-button {
+  -webkit-appearance: inner-spin-button;
+}
+
+.portfolioLots2 {
+  -moz-appearance: textfield;
+}
+.portfolioLots2::-webkit-inner-spin-button {
+  height: 30px;
+}
+
+.portfolioLots2::-webkit-outer-spin-button {
+  height: 30px;
+}
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 15px;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 25px;
+  width: 25px;
+  left: -1px;
+  bottom: -5px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(90, 208, 90);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px green;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+  background-color: green;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.switch-container {
+  display: flex;
+  justify-content: center;
+}
+.nifty2 {
+  color: #4661bd;
+  font-family: "Roboto-Bold, sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.orderflowtable-alt {
+  border-collapse: collapse;
+}
+
+.middle-main-container .main-table table.orderflowtable-alt thead th {
+  border-right: 0.5px solid #b3b0b0 !important;
+  padding: 3px !important;
+  /* position: sticky !important; */
+}
+.middle-main-container
+  .main-table
+  table.orderflowtable-alt
+  thead
+  th
+  div:first-child {
+  /* Styles for the second case */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2px 33px;
+}
+.orderflowtable-alt thead {
+  position: sticky;
+  top: 0;
+  z-index: 2; /* Adjusted z-index value */
+  padding: 3px;
+}
+.orderflowtable-alt thead tr {
+  position: sticky;
+  top: 0;
+  z-index: 2; /* Adjusted z-index value */
+  padding: 5px;
+}
+
+/* Style for the line under "CALLS" header */
+.main-table table.orderflowtable-alt thead th.calls::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0px; /* Adjust this value as needed to position the line */
+  width: 100%;
+  height: 1px;
+  background-color: #b3b0b0;
+}
+
+/* Style for the line under "PUTS" header */
+.main-table table.orderflowtable-alt thead th.puts::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0px; /* Adjust this value as needed to position the line */
+  width: 100%;
+  height: 1px;
+  background-color: #b3b0b0;
+}
+
+/* Make lines fixed */
+.main-table table.orderflowtable-alt thead th.calls,
+.main-table table.orderflowtable-alt thead th.puts {
+  position: sticky;
+  z-index: 1; /* Ensure it's above the table content */
+}
+
+/* Remove line under "Strike" header */
+.main-table table.orderflowtable-alt thead th.strike::after {
+  display: none;
+}
+
+.orderflowtable-alt tbody tr {
+  height: 30px;
+}
+
+.optionChainTableDiv {
+  margin-bottom: 20px;
+}
+
+.refreshBtn button:hover {
+  cursor: pointer !important;
+}
+
+.timeDiv {
+  color: rgb(0, 38, 91);
+  margin-left: 210px;
+  height: 20px;
+  width: 230px;
+  margin-top: 35px;
+}

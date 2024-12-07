@@ -1,0 +1,2107 @@
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+  /* Set the width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4661bd;
+  /* Set the color of the thumb (the draggable part) */
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+  /* Set the color of the track (the non-draggable part) */
+}
+
+.heading {
+  left: 0px;
+  top: 0px;
+}
+
+.rectangle-1499 {
+  background: #4661bd;
+  width: 1560px;
+  height: 50px;
+  position: absolute;
+  margin-left: -10px;
+}
+
+.options-portfolio-execution-beta {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  width: 382px;
+}
+
+.div {
+  width: 43px;
+  height: 48px;
+  margin-left: 0;
+}
+
+.div2 button {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SfProDisplay-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 97%;
+  margin-top: -8.5px;
+}
+
+.frame-13810 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* width: 820px; */
+  position: relative;
+  left: 30px;
+  top: 26px;
+}
+.frame-container{
+   display: flex;
+  flex-direction: column;
+  gap: 10px; /* Reduce gap between frames */
+  padding: 15px;
+
+}
+
+.group-13281 {
+  flex-shrink: 0;
+  width: 250px;
+  height: 21px;
+  position: static;
+  /* margin-right: 100px; */
+}
+
+.default-portfolio-settings {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.help {
+  color: #4661bd;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 200px;
+  top: 0px;
+}
+
+.nifty-50-21349-40 {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+}
+
+.pay-premium-13515-00 {
+  color: #9b0101;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+}
+
+.lot-size-50 {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+}
+
+.marginDetails {
+  margin-left: 100px;
+}
+
+.stockSymbol {
+  display: inline-block;
+  text-align: right;
+  padding-right: 10px;
+  width: 100px !important;
+}
+.stockLTP {
+  display: inline-block;
+  width: 100px !important;
+}
+.lotsizelabel {
+  padding-right: 10px;
+  display: inline-block;
+  width: 45px !important;
+}
+.lotsize {
+  display: inline-block;
+  width: 60px !important;
+  color: #4661bd;
+}
+.marginLabel {
+  padding-right: 10px;
+  display: inline-block;
+  width: 115px !important;
+}
+.margin {
+  display: inline-block;
+  color: red;
+  /* width:60px !important; */
+}
+
+.frame-13825 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 80%;
+  position: relative;
+  left: 20px;
+  top: 65px;
+  gap:0px
+}
+
+/* .frame-13824 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 170px;
+  height: 56px;
+  margin-right: -20px;
+  position: relative;
+} */
+
+.exchange {
+  color: #4661bd;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.group-13283 {
+  flex-shrink: 0;
+  width: 172.5px;
+  height: 35px;
+  position: static;
+}
+
+.nifty {
+  color: #4661bd;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 79px;
+  top: 1px;
+}
+
+.nifty .nifty1 {
+  color: #4661bd;
+  top: 10px;
+  padding-left: 12px;
+  padding-bottom: 3px;
+}
+
+.exchange-dropdown {
+  width: 45%;
+  /* Make the dropdowns take up 100% width of the container */
+  height: 34px;
+  top: 5px;
+  padding: 8px;
+  /* Add padding for better appearance */
+  border: 1px solid #000000;
+  /* Add a border for a defined look */
+  border-radius: 4px;
+  /* Add rounded corners */
+  box-sizing: border-box;
+  /* Include padding and border in the total width/height */
+
+  /* Optional: Add some spacing between dropdowns */
+  background-color: #fff;
+}
+
+.exchange-dropdown1 {
+  width: 9.5rem;
+  height: 34px;
+
+  /* Make the dropdowns take up 100% width of the container */
+  padding: 8px;
+  /* Add padding for better appearance */
+  border: 1px solid #000000;
+  /* Add a border for a defined look */
+  border-radius: 4px;
+  /* Add rounded corners */
+  box-sizing: border-box;
+  /* Include padding and border in the total width/height */
+
+  /* Optional: Add some spacing between dropdowns */
+  background-color: #fff;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: -25px;
+}
+
+.predefined-strategies-dropdown {
+  width: 100%;
+  /* Make the dropdowns take up 100% width of the container */
+  padding: 8px;
+  /* Add padding for better appearance */
+  border: 1px solid #000000;
+  /* Add a border for a defined look */
+  border-radius: 4px;
+  /* Add rounded corners */
+  box-sizing: border-box;
+  /* Include padding and border in the total width/height */
+  margin-bottom: 5px;
+  /* Optional: Add some spacing between dropdowns */
+  background-color: #fff;
+  margin-top: 5px;
+}
+
+.strike-selection-dropdown {
+  width: 110%;
+  /* Make the dropdowns take up 100% width of the container */
+  padding: 8px;
+  /* Add padding for better appearance */
+  border: 1px solid #000000;
+  /* Add a border for a defined look */
+  border-radius: 4px;
+  /* Add rounded corners */
+  box-sizing: border-box;
+  /* Include padding and border in the total width/height */
+  margin-bottom: 5px;
+  /* Optional: Add some spacing between dropdowns */
+  background-color: #fff;
+  margin-top: 5px;
+}
+
+.underlying-dropdown {
+  width: 115%;
+  /* Make the dropdowns take up 100% width of the container */
+  padding: 8px;
+  /* Add padding for better appearance */
+  border: 1px solid #000000;
+  /* Add a border for a defined look */
+  border-radius: 4px;
+  /* Add rounded corners */
+  box-sizing: border-box;
+  /* Include padding and border in the total width/height */
+  margin-bottom: 5px;
+  margin-left: -2px;
+  /* Optional: Add some spacing between dropdowns */
+  background-color: #fff;
+  margin-top: 4px;
+}
+
+.price-type-dropdown {
+  width: 110%;
+  /* Make the dropdowns take up 100% width of the container */
+  padding: 8px;
+  /* Add padding for better appearance */
+  border: 1px solid #000000;
+  /* Add a border for a defined look */
+  border-radius: 4px;
+  /* Add rounded corners */
+  box-sizing: border-box;
+  /* Include padding and border in the total width/height */
+  margin-bottom: 5px;
+  /* Optional: Add some spacing between dropdowns */
+  background-color: #fff;
+  margin-top: 4px;
+}
+
+.expiry-dropdown {
+  width: 103px;
+  /* Make the dropdowns take up 100% width of the container */
+  margin-top: 5px;
+  padding: 8px 4px;
+  /* Add padding for better appearance */
+  border: 1px solid #000000;
+  /* Add a border for a defined look */
+  border-radius: 4px;
+  /* Add rounded corners */
+  box-sizing: border-box;
+  /* Include padding and border in the total width/height */
+  margin-bottom: 5px;
+  /* Optional: Add some spacing between dropdowns */
+  background-color: #fff;
+  /* margin-left: -1px; */
+}
+
+.frame-136492 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 5px 1px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 81px;
+  height: 32px;
+  position: absolute;
+  left: 0px;
+  top: 24px;
+  overflow: hidden;
+}
+
+.vector-154 {
+  width: 82px;
+  height: 0px;
+  position: absolute;
+  left: 90.5px;
+  top: 54.5px;
+  overflow: visible;
+}
+
+/* .frame-13823 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 111px;
+  height: 57px;
+  margin-left: 85px;
+  position: relative;
+} */
+
+.expiry2 {
+  color: #4661bd;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.frame-136493 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 5px 1px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 102px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .frame-13822 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 86px;
+  margin-left: -20px;
+  height: 75px;
+  position: relative;
+} */
+
+.default-lots {
+  color: #4661bd;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.frame-136682 {
+  display: flex;
+  align-items: center;
+}
+
+#lotsInput {
+  width: 55px;
+  /* Adjust the width as needed */
+  padding: 5px;
+  margin-right: 10px;
+  /* Add some spacing between the input and other elements */
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* .frame-13817 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 100px;
+  height: 73px;
+  margin-left: -30px;
+  position: relative;
+} */
+
+.predefined-strategies {
+  color: #4661bd;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.frame-137922 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 5px 1px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 100px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .frame-13818 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 123px;
+  height: 55px;
+  position: relative;
+} */
+
+.strike-selection {
+  color: #4661bd;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.frame-13793 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 5px 1px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 102px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .frame-13819 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 111px;
+  height: 55px;
+  position: relative;
+} */
+
+.underlying {
+  color: #4661bd;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.frame-13794 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 5px 1px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 102px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .frame-13820 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 111px;
+  height: 55px;
+  position: relative;
+} */
+
+.price-type {
+  color: #4661bd;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.frame-13795 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 5px 1px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 102px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .frame-13821 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 46px;
+  height: 74px;
+  position: relative;
+} */
+
+.strike-step {
+  color: #4661bd;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  top: -20px;
+  left: 3px;
+}
+
+.group-13282 {
+  flex-shrink: 0;
+  margin-left: 5px;
+  height: 32px;
+  position: static;
+  border: none;
+  margin-top: -2px;
+  padding: 1px;
+}
+
+.group-13282 td input[type="text"] {
+  width: 42px;
+  font-weight: 600;
+  border: 1px solid #000;
+  outline: none;
+padding: 1px;
+  /* Adjust the padding as needed */
+  box-sizing: border-box;
+}
+
+.vector-155 {
+  width: 36px;
+  height: 0px;
+  position: absolute;
+  left: 5px;
+  top: 74px;
+  overflow: visible;
+}
+
+._50 {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 11px;
+  top: 46px;
+}
+.frame99{
+  flex-direction: column;
+  width:100%;
+}
+.frame-13816 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 156px;
+  position: absolute;
+  top: 90px;
+  margin-top: 5px;
+  gap: 20px;
+}
+
+.frame-13815 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-137982,
+.frame-13797,
+.frame-13796,
+.frame-137892 {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+#yourCheckboxId {
+  z-index: 999;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.move-sl-to-cost {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.frame-13814 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.positional-portfolio {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.frame-13813 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.buy-trades-first {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.frame-13812 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.tgt-sl-entry-on-per-lot-basis {
+  color: #4661bd;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+/* .ellipse-47 {
+      background: #d9d9d9;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      left: 1460px;
+      top: 94px;
+    }
+    .ellipse-48 {
+      background: #d9d9d9;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      left: 1460px;
+      top: 167px;
+    } */
+.rectangle-1557 {
+  background: #d8e1ff;
+  border-radius: 13px;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  left: 1282px;
+  top: 200px;
+}
+
+.ellipse-49 {
+  background: #4661bd;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 1440px;
+  top: 210px;
+}
+
+.ellipse-50 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 1445px;
+  top: 215px;
+  object-fit: cover;
+}
+
+.saveLoader {
+  /* background-color: red; */
+  display: inline-block;
+  position: absolute;
+  right: 7px;
+  bottom: 1px;
+}
+
+.CheckIconContainer {
+  /* background-color: red; */
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  right: 7px;
+  bottom: 3px;
+}
+
+.save-portfolio {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 1305px;
+  top: 215px;
+}
+
+.group-13285 {
+  position: absolute;
+  inset: 0;
+}
+
+.rectangle-1556 {
+  background: #d8e1ff;
+  border-radius: 13px;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  left: 1282px;
+  top: 136px;
+}
+
+.ellipse-502 {
+  background: #4661bd;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 1440px;
+  top: 146px;
+}
+
+.ellipse-51 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 1445px;
+  top: 152px;
+  object-fit: cover;
+}
+
+.reset {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 1305px;
+  top: 151px;
+}
+
+.group-13284 {
+  position: absolute;
+  inset: 0;
+}
+
+.rectangle-1555 {
+  background: #d8e1ff;
+  border-radius: 13px;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  left: 1282px;
+  top: 75px;
+}
+
+.ellipse-512 {
+  background: #4661bd;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 1440px;
+  top: 84px;
+}
+
+.ellipse-52 {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 1445px;
+  top: 88px;
+  object-fit: cover;
+}
+
+.refresh {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 1305px;
+  top: 90px;
+}
+
+.tablecontainer {
+  width: 95%;
+  height: 25rem;
+  margin: 20px;
+  margin-left: 40px;
+  margin-top: 9rem;
+  max-height: 300px;
+  /* Set the desired height */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+  /* z-index: 999999; */
+}
+
+/* For WebKit browsers (Chrome) */
+.table-container::-webkit-scrollbar {
+  width: 12px;
+  /* Set the width of the scrollbar */
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background-color: #4661bd;
+  /* Set the color of the thumb */
+  border-radius: 6px;
+  /* Set the border radius of the thumb */
+}
+
+.table-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  /* Set the color of the scrollbar track */
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 10px;
+  width: fit-content;
+  white-space: nowrap;
+  z-index: 999999;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+.tabletbody1 tr:nth-child(odd) td {
+  background-color: #fff;
+  /* White background for odd rows */
+}
+
+.tabletbody1 tr:nth-child(even) td {
+  background-color: #e8e6e6;
+  /* Gray background for even rows */
+}
+
+.tabletbody1 tr td {
+  padding: 5px;
+  text-align: center;
+}
+
+.custom-dropdown {
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.thead th {
+  background-color: #d8e1ff;
+  padding: 5px;
+  text-align: center;
+}
+
+/* .custom-dropdown{
+      border: 1px solid black;
+      border-radius: 3px;
+      z-index: 99999;
+    } */
+
+.frame-13773 {
+  background: transparent;
+  border-radius: 12.5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 0px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  margin: auto;
+  bottom: 16px;
+  overflow: hidden;
+}
+
+.ce-pe {
+  color: #000000;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+
+.ce-pe-span2 {
+  color: #000000;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.toggle1 {
+  width: 43rem;
+  margin-left: 35px;
+  padding-top: 20px;
+  border-radius: 50px;
+}
+
+.toggle-switch-container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  background: #d8e1ff;
+  border-radius: 50px;
+  margin-right: -30px;
+  border: 1px solid #fff;
+  width: 38.3rem;
+  height: 42px;
+}
+
+.toggle-switch1:hover {
+  background-color: #32406d;
+  border-radius: 50px;
+}
+
+.toggle-switch1 span {
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.toggle-switch1 {
+  font-family: "Roboto";
+  font-style: normal;
+  color: #100000;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 50px;
+  height: 40px;
+  padding-top: 10px;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.toggle-switch1.active {
+  background-color: #4661bd;
+}
+
+.positions {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+}
+
+.frame-13788 {
+  background: rgba(70, 97, 189, 0);
+  border-radius: 40px;
+  padding: 16px 10px 16px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-13789 {
+  background: rgba(70, 97, 189, 0);
+  border-radius: 40px;
+  padding: 16px 10px 16px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-137902 {
+  background: rgba(70, 97, 189, 0);
+  border-radius: 40px;
+  padding: 16px 10px 16px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.note-settings-like-user-accounts-retries-hold-sell-sec-etc-will-be-taken-from-strategy-tab-however-start-and-end-time-etc-will-be-taken-from-here {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  position: absolute;
+  left: 15px;
+  top: 62rem;
+}
+
+.target-sl-trailing-spread-multi-tgt-qty-max-slippage-etc-can-be-filled-in-points-or-in-percent-eg-10-will-be-points-or-in-percent-eg-10-will-be-points-and-10-will-be-percent-for-absolute-values-like-for-buy-at-200-then-sl-at-180-select-absolute {
+  color: #41bf42;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  left: 3px;
+  top: 63.5rem;
+}
+
+.line {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0px 0px 0px 0px;
+  width: 1350px;
+  margin-left: -6px;
+  position: absolute;
+  left: 40px;
+  top: 56rem;
+}
+
+.gap1 {
+  padding-bottom: 20rem;
+}
+
+.frame-13792 {
+  background: #ffffff;
+  width: 1842px;
+  height: 251px;
+  position: absolute;
+  left: 0px;
+  top: 67px;
+  overflow: hidden;
+}
+
+.frame-13802 {
+  width: 179px;
+  height: 235px;
+  position: absolute;
+  margin-left: 3.5rem;
+  margin-top: 15px;
+}
+
+.execution-settings {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  top: 0px;
+}
+
+.Portfolio-Profit-Protection {
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  width: 15rem;
+  margin-left: 16.2rem;
+}
+
+.timings {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 885px;
+  top: 0px;
+}
+
+.Entry-Setting {
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  margin-top: 25px;
+}
+
+.frame-13803 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 5px 1px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 171px;
+  height: 32px;
+  position: absolute;
+  left: 233px;
+  top: 45px;
+  overflow: hidden;
+}
+
+.product {
+  color: #4661bd;
+  text-align: center;
+  font-family: "Roboto-SemiBold", sans-serif;
+  margin-left: -5px;
+}
+
+.product th {
+  border: transparent;
+  padding-top: 3px;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.product td {
+  border: transparent;
+  white-space: nowrap;
+  padding-right: 5px;
+}
+
+.product1 {
+  color: #4661bd;
+  text-align: center;
+  font-family: "Roboto-SemiBold", sans-serif;
+  margin-left: -5px;
+  margin-top: -6rem;
+}
+
+.product1 th {
+  border: transparent;
+  white-space: nowrap;
+  padding-right: 15px;
+}
+
+.product1 td {
+  border: transparent;
+}
+
+.product2 {
+  color: #4661bd;
+  text-align: center;
+  font-family: "Roboto-SemiBold", sans-serif;
+  margin-left: 885px;
+  margin-top: -188px;
+  padding-top: 5px;
+}
+
+.product2 th {
+  border: transparent;
+  white-space: nowrap;
+  padding-right: 15px;
+}
+
+.product2 td {
+  border: transparent;
+}
+
+.product3 {
+  color: #4661bd;
+  text-align: center;
+  font-family: "Roboto-SemiBold", sans-serif;
+  margin-left: 885px;
+  margin-top: -188px;
+  margin-top: 1rem;
+}
+
+.product3 th {
+  border: transparent;
+  white-space: nowrap;
+  padding-right: 15px;
+}
+
+.product3 td {
+  border: transparent;
+  color: #000;
+  padding-left: 2px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.TargetSettings {
+  color: #4661bd;
+  text-align: center;
+  font-family: "Roboto-SemiBold", sans-serif;
+  margin-left: -5px;
+}
+
+.TargetSettings th {
+  border: transparent;
+  padding-top: 3px;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 15px;
+  text-align: left;
+}
+
+.TargetSettings td {
+  border: transparent;
+  white-space: nowrap;
+  padding-right: 80px;
+}
+
+.TargetSettings1 {
+  color: #4661bd;
+  font-family: "Roboto-SemiBold", sans-serif;
+  margin-left: -5px;
+}
+
+.TargetSettings1 th {
+  border: transparent;
+  padding-top: 3px;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 15px;
+  text-align: left;
+}
+
+.TargetSettings1 td {
+  border: transparent;
+  white-space: nowrap;
+  padding-right: 5px;
+  padding-right: 85px;
+}
+
+.TargetSettings2 {
+  color: #4661bd;
+  font-family: "Roboto-SemiBold", sans-serif;
+  margin-left: -5px;
+}
+
+.TargetSettings2 th {
+  border: transparent;
+  padding-top: 3px;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 15px;
+  text-align: left;
+}
+
+.TargetSettings2 td {
+  border: transparent;
+  white-space: nowrap;
+  padding-right: 5px;
+  padding-right: 85px;
+}
+
+.Stoploss {
+  color: #4661bd;
+  text-align: center;
+  font-family: "Roboto-SemiBold", sans-serif;
+  margin-left: -5px;
+}
+
+.Stoploss th {
+  border: transparent;
+  padding-top: 3px;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 15px;
+  text-align: left;
+}
+
+.Stoploss td {
+  border: transparent;
+  white-space: nowrap;
+  padding-right: 80px;
+}
+
+.Stoploss1 {
+  color: #4661bd;
+  text-align: center;
+  font-family: "Roboto-SemiBold", sans-serif;
+  margin-left: -5px;
+}
+
+.Stoploss1 th {
+  border: transparent;
+  padding-top: 3px;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 15px;
+  text-align: left;
+}
+
+.Stoploss1 td {
+  border: transparent;
+  white-space: nowrap;
+  padding-right: 96px;
+}
+
+.Stoploss2 {
+  color: #4661bd;
+  text-align: center;
+  font-family: "Roboto-SemiBold", sans-serif;
+  margin-left: -5px;
+}
+
+.Stoploss2 th {
+  border: transparent;
+  padding-top: 3px;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 15px;
+  text-align: left;
+}
+
+.Stoploss2 td {
+  border: transparent;
+  white-space: nowrap;
+  padding-right: 80px;
+}
+
+.ExitSettings {
+  color: #4661bd;
+  text-align: center;
+  font-family: "Roboto-SemiBold", sans-serif;
+  margin-left: -5px;
+}
+
+.ExitSettings1 {
+  width: 300px;
+}
+
+.ExitSettings1 input[type="checkbox"] {
+  margin-right: 6px;
+  /* Adjust the margin as needed */
+}
+
+.h4 h4 {
+  color: #4661bd;
+  white-space: nowrap;
+  margin-left: 20rem;
+  margin-top: -5.5rem;
+}
+
+.notApplicable {
+  color: #7b7b7b;
+  white-space: nowrap;
+  margin-left: 20rem;
+}
+
+.h4 select {
+  margin-top: 0.5rem;
+  margin-left: 20rem;
+}
+
+.OrderRetry {
+  margin-left: 37rem;
+  white-space: nowrap;
+  margin-top: -8.8rem;
+}
+
+.Settings {
+  color: #59289e;
+}
+
+.Settings1 {
+  color: #7b7b7b;
+}
+
+.OrderRetry h4 {
+  color: #4661bd;
+  display: inline-block;
+  margin-right: 25px;
+  /* Adjust the margin as needed */
+}
+
+.ExitSettings h4 {
+  border: transparent;
+  padding-top: 3px;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 15px;
+  text-align: left;
+}
+
+td input[type="box"] {
+  border: none;
+  outline: none;
+  padding: 4px;
+  /* Adjust the padding as needed */
+  box-sizing: border-box;
+  width: 120px;
+}
+
+.product td input[type="text"] {
+  border: none;
+  width: 100px;
+  border-bottom: 1px solid #000;
+  /* Adjust the color as needed */
+  outline: none;
+  padding: 4px;
+  /* Adjust the padding as needed */
+  box-sizing: border-box;
+}
+
+.TargetSettings td input[type="text"] {
+  border: none;
+  width: 180px;
+  border-bottom: 1px solid #000;
+  /* Adjust the color as needed */
+  outline: none;
+  padding: 4px;
+  /* Adjust the padding as needed */
+  box-sizing: border-box;
+}
+
+.TargetSettings1 td input[type="text"] {
+  border: none;
+  width: 175px;
+  border-bottom: 1px solid #000;
+  /* Adjust the color as needed */
+  outline: none;
+  padding: 4px;
+  /* Adjust the padding as needed */
+  box-sizing: border-box;
+}
+
+.line1 {
+  width: 1px;
+  /* Adjust the width of the line */
+  height: 90%;
+  background-color: #000;
+  /* Adjust the color of the line */
+  margin-left: 54.5rem;
+  /* Adjust the distance between the table and the line */
+  margin-top: -90px;
+}
+
+.Product-dropdown,
+.Strategy-dropdown,
+.One-or-More-dropdown,
+.Legs-Execution-dropdown,
+.Portfolio-Execution-dropdown,
+.Entry-Order-dropdown,
+.Run-On-Days-dropdown {
+  width: 100%;
+  /* Make the dropdowns take up 100% width of the container */
+  padding: 8px;
+  /* Add padding for better appearance */
+  border: 1px solid #000000;
+  /* Add a border for a defined look */
+  border-radius: 4px;
+  /* Add rounded corners */
+  box-sizing: border-box;
+  /* Include padding and border in the total width/height */
+  margin-bottom: 5px;
+  /* Optional: Add some spacing between dropdowns */
+  background-color: #fff;
+}
+
+.frame-13804 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 5px 1px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 109px;
+  height: 32px;
+  position: absolute;
+  left: 442px;
+  top: 45px;
+  overflow: hidden;
+}
+
+.vector-150 {
+  width: 103px;
+  height: 0px;
+  position: absolute;
+  left: 583px;
+  top: 74px;
+  overflow: visible;
+}
+
+.vector-151 {
+  width: 103px;
+  height: 0px;
+  position: absolute;
+  left: 726px;
+  top: 74px;
+  overflow: visible;
+}
+
+.vector-152 {
+  width: 103px;
+  height: 0px;
+  position: absolute;
+  left: 849px;
+  top: 74px;
+  overflow: visible;
+}
+
+.vector-153 {
+  width: 0px;
+  height: 186.5px;
+  position: absolute;
+  left: 988.5px;
+  top: 3.5px;
+  overflow: visible;
+}
+
+.frame-138042 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 5px 1px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 109px;
+  height: 32px;
+  position: absolute;
+  left: 1010px;
+  top: 58px;
+  overflow: hidden;
+}
+
+.frame-136832 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 5px 1px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 117px;
+  height: 32px;
+  position: absolute;
+  left: 1172px;
+  top: 58px;
+  overflow: hidden;
+}
+
+._09-20-00 {
+  color: #000000;
+  text-align: left;
+  font-family: "SfProDisplay-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+}
+
+.div8 {
+  width: 12px;
+  height: 14px;
+  position: absolute;
+  left: 100px;
+  top: 1px;
+}
+
+.div9 {
+  width: 12px;
+  height: 14px;
+  position: absolute;
+  left: 100px;
+  top: 17px;
+}
+
+.frame-13807 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 5px 1px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 117px;
+  height: 32px;
+  position: absolute;
+  left: 1318px;
+  top: 58px;
+  overflow: hidden;
+}
+
+._15-00-00 {
+  color: #000000;
+  text-align: left;
+  font-family: "SfProDisplay-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+}
+
+.frame-13808 {
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 5px 1px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 117px;
+  height: 32px;
+  position: absolute;
+  left: 1467px;
+  top: 58px;
+  overflow: hidden;
+}
+
+._15-214-059 {
+  color: #000000;
+  text-align: left;
+  font-family: "SfProDisplay-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+}
+
+.body::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Styling the scrollbar */
+.body::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+/* Handle */
+.body::-webkit-scrollbar-thumb {
+  background-color: #4661bd;
+  border-radius: 10px;
+}
+
+/* For Firefox */
+.body {
+  scrollbar-width: thin;
+  scrollbar-color: #4661bd #f1f1f1;
+  border-radius: 10px;
+}
+
+.body:hover {
+  scrollbar-color: #4661bd #f1f1f1;
+  border-radius: 10px;
+}
+
+.OPN input[type="text"] {
+  border: none;
+  width: 15rem;
+  border-bottom: 1px solid #000;
+  outline: none;
+
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+
+.line .OPN th {
+  color: #4661bd;
+  font-size: 17px;
+  font-family: roboto;
+}
+
+.Remarks input[type="text"] {
+  border: none;
+  width: 36rem;
+  border-bottom: 1px solid #000;
+  outline: none;
+  padding: 3.2px;
+  box-sizing: border-box;
+  padding-right: 10px;
+  font-size: 20px;
+  font-family: roboto;
+}
+
+.Product-dropdown1 {
+  width: 100px;
+}
+
+.custom-dropdown .dropdown-toggle {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 4px 12px 3px;
+  border-radius: 3px;
+  cursor: default;
+  width: 130px;
+}
+
+/* Style the dropdown content area */
+/* .custom-dropdown .dropdown-content {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  width: 130px;
+  text-align: start;
+  padding-left: 10px;
+  cursor: default;
+  height: "70px";
+} */
+
+.custom-dropdown .dropdown-content {
+  position: absolute;
+  left: -2px;
+  z-index: 1;
+  max-height: 280px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  top: 96px;
+  margin-left: 56.2rem;
+  padding-left: 10px;
+  width: 130px;
+  text-align: start;
+}
+
+/* Show the dropdown content area when the button is clicked */
+.custom-dropdown .dropdown-toggle:focus + .dropdown-content,
+.custom-dropdown .dropdown-toggle:hover + .dropdown-content {
+  display: block;
+}
+
+/* Style each checkbox and label within the dropdown */
+.custom-dropdown input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.custom-dropdown label {
+  display: inline-block;
+  margin-bottom: -4px;
+}
+
+.custom-dropdown label:hover {
+  color: #007bff;
+}
+
+.custom-dropdown .dropdown-content {
+  z-index: 1;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  cursor: pointer;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.button-with-image {
+  position: absolute;
+  top: -25;
+  width: 30px;
+  /* Adjust width as needed */
+  height: 100%;
+  /* Match the height of the input field */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: "3px";
+}
+
+.button-with-image img {
+  width: 2.5rem;
+  margin-left: -56px;
+}
+
+button {
+  padding: 8px 0px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.arrow-buttons {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.clock_field {
+  width: 1.69vw;
+  border: none;
+  text-align: center;
+  font-size: 0.8vw;
+  cursor: pointer;
+}
+
+.clock_field::-webkit-outer-spin-button,
+.clock_field::-webkit-inner-spin-button,
+.number1::-webkit-outer-spin-button,
+.number1::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.clock_field:focus {
+  outline: none;
+}
+
+.timing-border {
+  display: flex;
+}
+
+.app_box {
+  border: 1px solid lightslategrey;
+  width: 7.8vw;
+  height: 40px;
+  padding: 1px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.Box-outer {
+  display: flex;
+  justify-content: center;
+}
+
+.time_border {
+  width: 3vw;
+  height: auto;
+  margin-top: 0.1vw;
+}
+
+.arrow_button {
+  width: 2vw;
+  height: 1.6vw;
+  cursor: pointer;
+  margin-left: 0.1vw;
+}
+
+.down_arrow {
+  margin-top: -0.5vw;
+  color: black;
+}
+
+.top_arrow {
+  margin-top: -0.5vw;
+  color: black;
+}
+
+.down_arrow:hover,
+.top_arrow:hover {
+  color: black;
+}
+
+.selectedInput {
+  background-color: blue;
+  color: white;
+}
+
+td input {
+  padding: 5px;
+}
+
+select:disabled,
+input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  /* background-color: rgb(231, 231, 231) !important; */
+}

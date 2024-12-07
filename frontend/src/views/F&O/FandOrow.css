@@ -1,0 +1,135 @@
+.ce-pe {
+  color: #000000;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.ce-pe-span2 {
+  background: transparent;
+  border-radius: 12.5px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 2px 100px 2px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  margin: auto;
+  bottom: 16px;
+  overflow: hidden;
+}
+.tablecontainer .tabletbody tr:nth-child(odd) {
+  background-color: #f2f2f2; /* Light gray for odd rows */
+}
+
+.tablecontainer .tabletbody tr:nth-child(even) {
+  background-color: #e8e6e6; /* Slightly darker gray for even rows */
+}
+
+.input {
+  height: 10px;
+}
+
+.input td input {
+  background-color: transparent;
+  padding: 10px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border: none;
+}
+td input[type="number"] {
+  border: none;
+}
+
+.tabletbody1 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.tablecontainer {
+  margin-top: 7.5rem;
+}
+
+/* Styling the scrollbar */
+.tablecontainer::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+/* Handle */
+.tablecontainer::-webkit-scrollbar-thumb {
+  background-color: #4661bd;
+  border-radius: 10px;
+}
+
+/* Track */
+.body::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Styling the scrollbar */
+.body::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+/* Handle */
+.body::-webkit-scrollbar-thumb {
+  background-color: #4661bd;
+  border-radius: 10px;
+}
+
+/* Track */
+.tablecontainer::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.tablecontainer::-moz-scrollbar {
+  width: 6px;
+}
+
+.tablecontainer::-moz-scrollbar-thumb {
+  background-color: #4661bd;
+  border-radius: 10px;
+}
+
+.tablecontainer::-moz-scrollbar-track {
+  border-radius: 10px;
+}
+
+.tablecontainer .table .thead tr th {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.portfolioLots::-webkit-inner-spin-button,
+.portfolioLots::-webkit-outer-spin-button {
+  -webkit-appearance: inner-spin-button !important;
+}
+
+.portfolioLots {
+  -moz-appearance: textfield;
+}
+.portfolioLots::-webkit-inner-spin-button {
+  height: 30px;
+}
+
+.portfolioLots::-webkit-outer-spin-button {
+  height: 30px;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2.5px;
+  margin-right: 10px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
